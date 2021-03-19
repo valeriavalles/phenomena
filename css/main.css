@@ -1,0 +1,383 @@
+* {
+    box-sizing: box-model;
+    margin: 0;
+    }
+  
+  body {
+    color: #fff;
+    font-family: lato, arial, sans-serif;
+    background-color: #111;
+    color: #fcfcfc;
+  }
+  
+  .hero {
+    max-width: auto;
+    width: 1440;
+    height: 592px;
+    background-image: 
+      linear-gradient(180deg, rgba(17, 17, 17, 0) 66.38%, #111111 100%), linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 47.4%), url(https://i.ibb.co/Jv3m0m9/hero1920.jpg);
+    background-size: cover;
+      background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+  
+  .logo img {
+    max-width: 128px;
+  }
+  
+  header nav img {
+    max-width: 32px;
+  }
+  
+  .search, .carrito {
+    max-width: 24px;
+  }
+  
+  .line {
+    max-height: 24px;
+  }
+  
+  header nav button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 0;
+    justify-self: end;
+    }
+  
+  header nav a:not(header nav a:first-child) {
+    margin-left: 40px;  
+  }
+  
+  header nav button {
+    margin-left: 24px;
+  }
+  
+  .line {
+    margin-left: 40px;
+    margin-right: 8px;
+  }
+  
+  .logo {
+    padding-top: 24px;
+    padding-left: 32px;
+  }
+  
+  header nav {
+    padding-right: 32px;
+  }
+  
+  .social img {
+    max-width: 24px;
+   }
+  
+  .social img:not(.social img:last-child) {
+    padding-bottom: 32px;
+   }
+  
+  .social {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+    margin-top: 120px;
+  }
+  
+  h1 {
+    font-size: 60px;
+    padding-bottom: 8px;
+  }
+  
+  .cta {
+    background-color: #FFC72B;
+    height: 48px;
+    max-width: max-content;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .hero-text p:nth-child(5) {
+    margin-bottom: 48px;
+  }
+  
+  .hero1 {
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+  
+  .hero-text {
+    margin-left: 165px;
+    margin-top: 80px;
+  }
+  
+  .hero-text p{
+    font-size: 18px;
+  }
+  
+  .hero-text p:nth-child(3){
+    font-size: 14px;
+    color: #A8A8A8;
+    padding-top: 8px;
+    padding-bottom: 32px;
+  }
+  
+  .selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+    font-size: 14px;
+  }
+  
+  .selector div:nth-child(2) img{
+    width: 48px;
+  }
+  
+  .selector div:not(.selector div:last-child){
+    padding-right: 16px;
+  }
+  
+  .selector div:first-child {
+    font-weight: bold;
+  }
+  
+  .selector div:nth-child(2){
+    padding-bottom: 8px;
+  }
+  
+  .tabs ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tabs ul {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    padding-top: 56px;
+  }
+  
+  .tabs ul li:not(ul li:last-child) {
+    margin-right: 96px;
+  }
+  
+  .tabs {
+    border-bottom: 1px solid #3D3D3D;
+  }
+  
+  .tabs ul li:first-child{
+    color: #FFC72B;
+    border-bottom: 2px solid #FFC72B;
+    padding-bottom: 24px;
+  }
+  
+  .tabs ul li:hover {
+    color: #FFC72B;
+  }
+  
+  .cards-destacadas {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 96px;
+  }
+  
+  .h-destacadas {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    max-width: 1110px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    line-height: 0;
+  }
+  
+  .h-destacadas-left p {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 0;
+    color: #FFC72B;
+    margin-left: 24px;
+    font-weight: 700;
+    padding-top: 2px;
+  }
+  
+  .h-destacadas-left {
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+  }
+  
+  .h-destacadas-right {
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+  }
+  
+  .botones img {
+    max-height: 48px;
+    height: 48px;
+    }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .h-selector {
+    display: flex;
+  }
+  
+  .h-selector p:first-child{
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 16px;
+    padding-bottom: 12px;
+    line-height: 22px;
+  }
+  
+  .cards-destacadas img{
+    max-width: 16px;
+    width: 16px;
+    padding-right: 8px;
+  }
+  
+  .card-destacada {
+    width: 196.4px;
+    height: 292.6px;
+  }
+  
+  .card-destacada {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .card-destacada p, .card-destacada time {
+    font-size: 14px;
+  }
+  
+  .date, .time {
+    display: flex;
+  }
+  
+  .date {
+    padding-bottom: 6px;
+  }
+  
+  .card-destacada-h {
+    padding-left: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .card-destacada:not(.card-destacada:last-child) {
+    margin-right: 32px;
+  }
+  
+  .experiencia {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 96px;
+  }
+  
+  .experiencia-h {
+    background-color: #181818;
+    width: 445px;
+    max-width: 445px;
+    height: 419px;
+  }
+  
+  .cine {
+    width: 665px;
+    background-image: url(https://i.ibb.co/kQVT9zH/cine.jpg);
+    background-size: cover;
+  }
+  
+  .experiencia-h-texto {
+    padding-top: 128px;
+    padding-left: 56px;
+    max-width: 339px;
+  }
+  
+  h4 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 40px;
+  }
+  
+  .experiencia-h-texto p {
+    font-size: 14px;
+  }
+  
+  .card-vota img {
+    max-width: 160px;
+    margin-bottom: 12px;
+  }
+  
+  .card-vota div img {
+    max-width: 16px;
+    padding-right: 6px;
+    padding-top: 1px;
+  }
+  
+  .card-vota p {
+    font-size: 12px;
+    color: #cacaca;
+    font-weight: 400;
+  }
+  
+  .card-vota div p{
+    font-size: 16px;
+    color: #ffc72b;
+  }
+  
+  .card-vota div {
+    display: flex;
+  }
+  
+  h5 {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    max-width: 160px;
+  }
+  
+  .cards-vota{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+  
+  .mailing {
+    background-color: #181818;
+    height: 229px;
+  }

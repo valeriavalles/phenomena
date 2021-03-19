@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phenomena</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+    </style>
+</head>
+
+<body>
+
+
+    <div class='hero'>
+
+        <header>
+            <a class='logo'>
+                <img src='https://i.ibb.co/YTg46w5/logo.png'>
+            </a>
+            <div class="content-menu-mobile">
+                <a href="#">
+                    <img src="imgs/icons/menu.svg" alt="">
+                </a>
+            </div>
+            <nav>
+                <a>Programación
+                </a>
+                <a>La Sala
+                </a>
+                <a>Noticias
+                </a>
+                <a>Club Phenomena
+                </a>
+                <a>Tienda
+                </a>
+                <a>Contacto
+                </a>
+
+                <div>
+                    <img class='line' src='https://i.ibb.co/K0Cdvx8/line.png'>
+                </div>
+
+                <button>
+                    <img class='search' src='https://i.ibb.co/Vthpk2m/search.png'>
+                </button>
+
+                <button>
+                    <img class='carrito' src='https://i.ibb.co/P9q21YW/carrito.png'>
+                </button>
+
+                <button>
+                    <img src='https://i.ibb.co/1Kr8TNM/perfil.png'>
+                </button>
+
+            </nav>
+        </header>
+
+        <div class='section--banner'>
+            <div class="container">
+                <div class="content-banner">
+                    <div>
+                        <p>Revisa nuestra programación</p>
+                        <h2>No te pierdas de ninguna:</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class='tabs'>
+        <ul>
+            <li>Por día</li>
+            <li>Por películas</li>
+            <li>Por mes</li>
+        </ul>
+    </div>
+
+    <div class="space--lr">
+
+        <!-- Filter  -->
+        <div class="content--filter">
+            <div>
+                <select id="cars" name="cars">
+                    <option value="volvo">Mes</option>
+                    <option value="saab">Enero</option>
+                    <option value="fiat">Febrero</option>
+                    <option value="audi">Marzo</option>
+                </select>
+            </div>
+            <div class="search-box">
+                <input class="search-input" type="text" placeholder="Buscar por película, actor, director...">
+                <button class="search-btn"><img src="imgs/icons/search.svg" alt=""></button>
+                <!-- <i class="fas fa-search"></i> -->
+            </div>
+        </div>
+
+        <div class="content--cards">
+            <div class="card-destacado">
+                <div class="image">
+                    <img src="imgs/Akira-4K.jpg" alt="">
+                </div>
+                <div class="info--card">
+                    <div>
+                        <h3>Akira 4K</h3>
+                        <p>Katsuhiro Otomo, 1988.</p>
+                        <p class="bottom-box">Japón · VOSE · 4K · 124'</p>
+                    </div>
+                    <div>
+                        <div class="content-icons">
+                            <div> <img src="imgs/icons/calendar.svg" alt=""> 24 de octubre</div>
+                            <div> <img src="imgs/icons/clock_alt.svg" alt=""> 10:30 am</div>
+                        </div>
+                        <div class="link-ver bottom-box">
+                            <a href="#">¡Quiero verla!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-destacado">
+                <div class="image">
+                    <img src="imgs/american-Psycho.png" alt="">
+                </div>
+                <div class="info--card">
+                    <div>
+                        <h3>American Psycho</h3>
+                        <p>Mary Harron, 2000.Int: Christian <br> Bale, Willem Dafoe, Jared Leto, Josh Lucas,</p>
+                        <p class="bottom-box">USA · VOSE · 35mm · 102'</p>
+                    </div>
+                    <div>
+                        <div class="content-icons">
+                            <div> <img src="imgs/icons/calendar.svg" alt=""> 24 de octubre</div>
+                            <div> <img src="imgs/icons/clock_alt.svg" alt=""> 10:30 am</div>
+                        </div>
+                        <div class="link-ver bottom-box">
+                            <a href="#">¡Quiero verla!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-destacado">
+                <div class="image">
+                    <img src="imgs/Arde-Mississippi.png" alt="">
+                </div>
+                <div class="info--card">
+                    <div>
+                        <h3>Arde Mississippi</h3>
+                        <p>Alan Parker, 1988.Int: Gene Hackman, <br> Willem Dafoe, Frances McDormand</p>
+                        <p class="bottom-box">Japón · VOSE · 4K · 124'</p>
+                    </div>
+                    <div>
+                        <div class="content-icons">
+                            <div> <img src="imgs/icons/calendar.svg" alt=""> 24 de octubre</div>
+                            <div> <img src="imgs/icons/clock_alt.svg" alt=""> 10:30 am</div>
+                        </div>
+                        <div class="link-ver bottom-box">
+                            <a href="#">¡Quiero verla!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-destacado">
+                <div class="image">
+                    <img src="imgs/Carlitos-Way.png" alt="">
+                </div>
+                <div class="info--card">
+                    <div>
+                        <h3>Carlitos Way</h3>
+                        <p>Brian de Palma, 1993.Int: Al Pacino, <br> Sean Penn, Penelope Ann Miller, James Rebhorn</p>
+                        <p class="bottom-box">USA · VOSE · 144'</p>
+                    </div>
+                    <div>
+                        <div class="content-icons">
+                            <div> <img src="imgs/icons/calendar.svg" alt=""> 24 de octubre</div>
+                            <div> <img src="imgs/icons/clock_alt.svg" alt=""> 10:30 am</div>
+                        </div>
+                        <div class="link-ver bottom-box">
+                            <a href="#">¡Quiero verla!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-destacado">
+                <div class="image">
+                    <img src="imgs/Chicago.png" alt="">
+                </div>
+                <div class="info--card">
+                    <div>
+                        <h3>Chicago</h3>
+                        <p>Rob Marshall, 2002.Int: Renée Zellweger, <br> Catherine Zeta-Jones, Richard Gere, Quee</p>
+                        <p class="bottom-box">USA · VOSE · 35 mm · 113'</p>
+                    </div>
+                    <div>
+                        <div class="content-icons">
+                            <div> <img src="imgs/icons/calendar.svg" alt=""> 24 de octubre</div>
+                            <div> <img src="imgs/icons/clock_alt.svg" alt=""> 10:30 am</div>
+                        </div>
+                        <div class="link-ver bottom-box">
+                            <a href="#">¡Quiero verla!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Cards  -->
+
+        <!-- Pagination  -->
+        <div class="content-pagination">
+            <ul class="pagination">
+                <li><a href="#" class="prev">
+                        < </a>
+                </li>
+                <li class="pageNumber active"><a href="#">1</a></li>
+                <li class="pageNumber"><a href="#">2</a></li>
+                <li class="pageNumber"><a href="#">3</a></li>
+                <li><a href="#" class="next"> ></a></li>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <div class="second-banner">
+        <div class="container">
+            <p> Lleva siempre contigo nuestra programación</p>
+            <h2>Descarga nuestra <br> programación mensual</h2>
+            <div class="c-dowload">
+                <a href="#">Descargar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="space--lr">
+        <div class="container">
+            <div class='h-destacadas'>
+                <div class='h-destacadas-left'>
+                    <h2>Nuestras recomendadas</h2>
+                    <p>ver todas</p>
+                </div>
+
+                <div class='h-destacadas-right'>
+                    <div class='h-selector'>
+                        <p>01&nbsp;</p>
+                        <p>/ 03</p>
+                    </div>
+                    <div class='botones'>
+                        <button>
+                            <img src='https://i.ibb.co/P5sSzcd/disabled.png'>
+                        </button>
+                        <button>
+                            <img src='https://i.ibb.co/B3Gxpwv/default.png'>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section--recommended">
+        <div class="container">
+
+            
+
+            <div class="cards--recommended">
+                <div class="recommend story-mobile owl-carousel owl-theme">
+                    <figure>
+                        <img src="imgs/the-sweet-hereafter.png" alt="">
+                        <figcaption>
+                            <h3>The Sweet Hereafter</h3>
+                            <p>"Un accidente de autobús en un pequeño pueblo trae a un abogado para defender a las
+                                familias afectadas, pero...”</p>
+                            <div class="c--more">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="imgs/Tonya.png" alt="">
+                        <figcaption>
+                            <h3>Tonya</h3>
+                            <p>«Los que me odian, siempre dicen: “Tonya, di la verdad”. Pero no existe tal verdad. ¡Esas son idioteces!...”</p>
+                            <div class="c--more">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="imgs/Host.png" alt="">
+                        <figcaption>
+                            <h3>Host</h3>
+                            <p>Seis amigos realizan una sesión espiritista por Zoom durante la cuarentena, lo que les lleva a vivir una serie de aterradoras experiencias. </p>
+                            <div class="c--more">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="imgs/El-Extrano-mundo-de-Jack.png" alt="">
+                        <figcaption>
+                            <h3>The Nightmare Before Christmas </h3>
+                            <p>"Perdone, Sr. Claus. Me temo que convertí su día festivo en un verdadero desastre”.  </p>
+                            <div class="c--more">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section--info space--lr">
+        <div class="container">
+            <img src="imgs/phenomena.png" alt="">
+            <div>
+                <ul>
+                    <li>Programación</li>
+                    <li>La Sala</li>
+                    <li>Noticias</li>
+                    <li>Club Phenomena</li>
+                    <li>Tienda</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="space--lr">
+        <div class="container">
+            <ul>
+                <li>© Sala Phenomena Experience</li>
+                <li>C/ Sant Antoni Maria Claret, 168. 08025 Barcelona  +34 93 252 77 43</li>
+                <li>Todos los derechos reservados</li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+    <!-- <script src="https://kit.fontawesome.com/d97b87339f.js" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        // console.log($(window).width())
+        $(document).ready(function () {
+
+            var mediaqueryList = window.matchMedia("(max-width: 767px)");
+            if(mediaqueryList.matches) {
+                $('.story-mobile').owlCarousel({
+                    center: false,
+                    items:1,
+                    loop:true,
+                    margin:5,
+                    stagePadding: 25,
+
+                })
+                $('.owl-item').css('margin-right', '0')
+                $('.owl-item').css('width', '260px')
+                $('.owl-item').css('padding-left', '10px')
+            }
+
+
+
+        });
+
+    </script>
+</body>
+
+</html>
